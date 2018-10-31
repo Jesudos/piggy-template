@@ -39,7 +39,7 @@ items:
           - name: CONFIG_SERVICE_PASSWORD
             value: "123456"
           image: sqshq/piggymetrics-config
-          name: gateway
+          name: config
           ports:
           - containerPort: 8888
           resources: {}
