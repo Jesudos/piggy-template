@@ -69,3 +69,5 @@ items:
       deploymentconfig: config
   status:
     loadBalancer: {}
+kind: List
+metadata: {}
