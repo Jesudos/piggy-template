@@ -8,7 +8,7 @@ items:
   spec:
     tags:
     - annotations:
-        docker.io/imported-from: sqshq/piggymetrics-config
+        openshift.io/imported-from: sqshq/piggymetrics-config
       from:
         kind: DockerImage
         name: sqshq/piggymetrics-config
