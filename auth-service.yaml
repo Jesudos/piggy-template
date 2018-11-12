@@ -48,7 +48,7 @@ items:
             value: "123456"
           image: sqshq/piggymetrics-auth-service
           name: auth-service
-		  ports:
+          ports:
           - containerPort: 5000
           resources: {}
     test: false
