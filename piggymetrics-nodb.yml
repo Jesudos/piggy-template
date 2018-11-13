@@ -509,5 +509,19 @@ items:
       deploymentconfig: registry
   status:
     loadBalancer: {}
+- apiVersion: v1
+  kind: Service
+  metadata:
+    creationTimestamp: null
+    name: auth-service
+  spec:
+    ports:
+    - name: 5000-tcp
+      port: 5000
+      targetPort: 5000
+    selector:
+      deploymentconfig: auth-service
+  status:
+    loadBalancer: {}
 kind: List
 metadata: {}
